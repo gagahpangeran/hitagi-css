@@ -5,7 +5,6 @@
 
 :root {
   --violet: #a95c9d;
-  --white: #ffffff;
 }
 
 .example {
@@ -49,7 +48,8 @@
   border-radius: 50%;
 }
 
-.left-side-hair {
+.left-side-hair,
+.top-left-hair {
   /* display: none; */
 }
 
@@ -163,6 +163,69 @@
   height: 54px;
   transform: skew(10deg, 32deg);
   background: var(--violet);
+}
+
+.top-left-hair .hair1 {
+  left: 446px;
+  top: 0px;
+  width: 64px;
+  height: 160px;
+}
+
+.top-left-hair .hair1 .line {
+  top: -61px;
+  width: 310px;
+  height: 522px;
+  border-width: 4px;
+}
+
+.top-left-hair .hair2 {
+  left: 446px;
+  top: -61px;
+  width: 155px;
+  height: 261px;
+  border-width: 5px;
+  border-radius: 100% 0 0;
+}
+
+.top-left-hair .hair2 .line {
+  left: -5px;
+  top: 74px;
+  width: 363px;
+  height: 406px;
+  border-width: 4px;
+  box-shadow: -100px -35px 0 0 var(--violet);
+}
+
+.top-left-hair .hair3 {
+  top: 44px;
+  left: 479px;
+  width: 70px;
+  height: 154px;
+}
+
+.top-left-hair .hair3 .line {
+  top: -84px;
+  width: 308px;
+  height: 406px;
+  border-width: 4px;
+}
+
+.top-left-hair .hair4 {
+  left: 479px;
+  top: -40px;
+  width: 308px;
+  height: 406px;
+  border-radius: 50%;
+}
+
+.top-left-hair .hair4 .line {
+  left: -143px;
+  top: -85px;
+  width: 1546px;
+  height: 1552px;
+  border-width: 4px;
+  box-shadow: -100px -35px 0 0 var(--violet);
 }
 
 /* background: rgba(255, 0, 0, 0.8); */
