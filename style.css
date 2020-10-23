@@ -49,47 +49,53 @@
   border-radius: 50%;
 }
 
-.hair1 {
+.left-side-hair {
+  /* display: none; */
+}
+
+.left-side-hair .hair1 {
   left: 310px;
   width: 100px;
   height: 780px;
 }
 
-.hair1 .line {
+.left-side-hair .hair1 .line {
   left: 7px;
   top: -162px;
   width: 378px;
   height: 1005px;
   border-width: 5px;
   transform: rotate(6deg);
-  background: var(--violet);
 }
 
-.hair2 {
-  left: 352px;
-  top: 280px;
-  width: 60px;
-  height: 500px;
+.left-side-hair .hair2 {
+  left: 317px;
+  top: -162px;
+  width: 378px;
+  height: 1005px;
+  border-width: 5px;
+  transform: rotate(6deg);
+  border-radius: 50%;
 }
 
-.hair2 .line {
-  left: 20px;
-  top: -318px;
+.left-side-hair .hair2 .line {
+  left: 67px;
+  top: 118px;
   width: 378px;
   height: 989px;
   border-width: 5px;
-  transform: rotate(8.6deg);
-  background: var(--white);
+  transform: rotate(2.6deg);
+  box-shadow: -135px 0 0 0 var(--violet);
 }
 
-.hair3 {
+.left-side-hair .hair3 {
   left: 380px;
   top: 215px;
-  width: 130px;
-  height: 210px;
+  width: 56px;
+  height: 209px;
 }
 
-.hair3 .line {
+.left-side-hair .hair3 .line {
   left: 43px;
   top: -143px;
   width: 195px;
@@ -99,44 +105,63 @@
   background: var(--violet);
 }
 
-.hair4 {
-  left: 434px;
-  top: 422px;
-  width: 100px;
-  height: 70px;
+.left-side-hair .hair4 {
+  left: 439px;
+  top: 419px;
+  width: 86px;
+  height: 67px;
+  transform: skewX(12deg);
 }
 
-.hair4 .line {
-  left: -156px;
-  top: 6px;
+.left-side-hair .hair4 .line {
+  left: -157px;
+  top: 12px;
   width: 305px;
   height: 187px;
-  border-width: 3px;
-  transform: rotate(28.5deg);
-  background: var(--white);
+  border-width: 3.5px;
+  transform: rotate(37.5deg);
+  box-shadow: 0 -6px 0 0 var(--violet);
 }
 
-.hair5 {
-  left: 443px;
+.left-side-hair .hair5 {
+  top: -50px;
+  left: 439px;
   width: 95px;
   height: 488px;
-  background: var(--violet);
+  transform: skewY(47deg);
 }
 
-.hair5 .line {
-  left: 70px;
-  top: -183px;
+.left-side-hair .hair5 .line {
+  left: 66px;
+  top: -349px;
   width: 305px;
   height: 976px;
   border-width: 3px;
-  transform: rotate(-3.3deg);
-  background: var(--white);
+  transform: rotate(-2.3deg) skewY(-47deg);
+  box-shadow: -10px 0 0 0 var(--violet);
 }
 
-.hair6 {
+.left-side-hair .hair6 {
   left: 410px;
-  width: 50px;
-  height: 220px;
+  width: 100px;
+  height: 333px;
+  background: var(--violet);
+}
+
+.left-side-hair .hair7 {
+  top: 330;
+  left: 435px;
+  width: 78px;
+  height: 89px;
+  background: var(--violet);
+}
+
+.left-side-hair .hair8 {
+  top: 391;
+  left: 434px;
+  width: 90px;
+  height: 54px;
+  transform: skew(10deg, 32deg);
   background: var(--violet);
 }
 
