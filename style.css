@@ -16,6 +16,14 @@
 .example img {
   width: 100%;
   height: auto;
+  opacity: 1;
+}
+
+.left-side-hair,
+.top-left-hair,
+.mid-hair,
+.float-hair {
+  /* display: none; */
   opacity: 0;
 }
 
@@ -46,11 +54,6 @@
   border-style: solid;
   border-color: #000;
   border-radius: 50%;
-}
-
-.left-side-hair,
-.top-left-hair {
-  /* display: none; */
 }
 
 .left-side-hair .hair1 {
@@ -226,6 +229,69 @@
   height: 1552px;
   border-width: 4px;
   box-shadow: -100px -35px 0 0 var(--violet);
+}
+
+.mid-hair .hair1 {
+  left: 715px;
+  width: 32px;
+  height: 198px;
+}
+
+.mid-hair .hair1 .line {
+  top: -174px;
+  width: 358px;
+  height: 476px;
+  border-width: 4px;
+}
+
+.mid-hair .hair2 {
+  left: 715px;
+  top: -174px;
+  width: 179px;
+  height: 476px;
+  border-radius: 100% 0 0 100%/ 50% 0 0 50%;
+}
+
+.mid-hair .hair2 .line {
+  left: 26px;
+  top: -2px;
+  width: 326px;
+  height: 598px;
+  border-width: 4px;
+  border-radius: 50%;
+  box-shadow: -50px 0 0 0 var(--violet);
+}
+
+.float-hair .hair1 {
+  top: 223px;
+  left: 485px;
+  width: 133px;
+  height: 268px;
+}
+
+.float-hair .hair1 .line {
+  top: -379px;
+  width: 367px;
+  height: 687px;
+  border-width: 3px;
+}
+
+.float-hair .hair2 {
+  left: 488px;
+  top: -156px;
+  width: calc(367px / 2);
+  height: 687px;
+  border-radius: 100% 0 0 100% / 50% 0 0 50%;
+}
+
+.float-hair .hair2 .line {
+  left: -15px;
+  top: -283px;
+  width: 382px;
+  height: 974px;
+  border-radius: 50%;
+  border-width: 3px;
+  box-shadow: -10px 0 0 0 var(--violet);
 }
 
 /* background: rgba(255, 0, 0, 0.8); */
