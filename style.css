@@ -17,7 +17,7 @@
 .example img {
   width: 100%;
   height: auto;
-  opacity: 0;
+  opacity: 0.8;
 }
 
 .left-side-hair,
@@ -26,7 +26,8 @@
 .float-hair,
 .top-right-hair,
 .base-face,
-.left-ear {
+.left-ear,
+.right-ear {
   /* display: none; */
   opacity: 1;
 }
@@ -458,6 +459,16 @@
   height: 91px;
   border-radius: 0 0 0 100%;
   border-width: 0px 0 0px 4px;
+}
+
+.right-ear {
+  left: 794px;
+  top: 271px;
+  width: 248px;
+  height: 286px;
+  border-width: 4px;
+  border-radius: 50%;
+  background: var(--cream);
 }
 
 /* background: rgba(255, 0, 0, 0.6); */
