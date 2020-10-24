@@ -9,6 +9,7 @@
   --cream: #f8ebdb;
   --black: #1d1b27;
   --white: #efefed;
+  --yellow: #dbd834;
 }
 
 .example {
@@ -671,73 +672,171 @@
 }
 
 .black-clothes .clothes1 {
-  left: 1154px;
-  top: 786px;
-  width: 201px;
-  height: 508px;
-  border-top: 4px solid #000;
-  transform: skewY(49deg);
+  left: 941px;
+  top: 735px;
+  width: 353px;
+  height: 390px;
+  transform: rotate(49.7deg);
   background: var(--black);
+}
+
+.black-clothes .clothes1.top-line {
+  background: transparent;
+  border-top: 4px solid #000;
 }
 
 .black-clothes .clothes2 {
-  left: 927px;
-  top: 688px;
+  left: 947px;
+  top: 686px;
   width: 227px;
-  height: 258px;
-  border-top: 4px solid #000;
-  transform: skewY(-9deg);
+  height: 247px;
+  transform: rotate(-9.5deg);
   background: var(--black);
+}
+
+.black-clothes .clothes2.top-line {
+  background: transparent;
+  border-top: 4px solid #000;
 }
 
 .black-clothes .clothes3 {
-  left: 819px;
-  top: 738px;
-  width: 108px;
-  height: 258px;
-  border-top: 4px solid #000;
-  transform: skewY(-31deg);
+  left: 871px;
+  top: 722px;
+  width: 129px;
+  height: 246px;
+  transform: rotate(-30.6deg);
   background: var(--black);
+}
+
+.black-clothes .clothes3.top-line {
+  background: transparent;
+  border-top: 4px solid #000;
 }
 
 .black-clothes .clothes4 {
-  left: 718px;
-  top: 840px;
-  width: 101px;
-  height: 258px;
-  border-top: 4px solid #000;
-  transform: skewY(-54deg);
+  left: 778px;
+  top: 792px;
+  width: 176px;
+  height: 247px;
+  transform: rotate(-54.1deg);
   background: var(--black);
 }
 
+.black-clothes .clothes4.top-line {
+  background: transparent;
+  border-top: 4px solid #000;
+}
+
 .white-clothes .clothes1 {
-  left: 863px;
-  top: 716px;
-  width: 57px;
-  height: 258px;
-  border-top: 3px solid #000;
-  transform: skewY(-9deg);
+  left: 866px;
+  top: 714px;
+  width: 66px;
+  height: 48px;
+  transform: rotate(-10.6deg);
   background: var(--white);
+}
+
+.white-clothes .clothes1.top-line {
+  background: transparent;
+  border-top: 3px solid #000;
 }
 
 .white-clothes .clothes2 {
-  left: 789px;
-  top: 741px;
-  width: 75px;
-  height: 258px;
-  border-top: 3.8px solid #000;
-  transform: skewY(-29deg);
+  left: 790px;
+  top: 740px;
+  width: 90px;
+  height: 48px;
+  transform: rotate(-29.6deg);
   background: var(--white);
 }
 
+.white-clothes .clothes2.top-line {
+  background: transparent;
+  border-top: 3px solid #000;
+}
+
 .white-clothes .clothes3 {
-  left: 728px;
-  top: 829px;
-  width: 61px;
-  height: 258px;
-  border-top: 6px solid #000;
-  transform: skewY(-66deg);
+  left: 712px;
+  top: 812px;
+  width: 152px;
+  height: 77px;
+  transform: rotate(-65.6deg);
   background: var(--white);
+}
+
+.white-clothes .clothes3.top-line {
+  background: transparent;
+  border-top: 3px solid #000;
+}
+
+.yellow-clothes .clothes1 {
+  left: 615px;
+  top: 858px;
+  width: 152px;
+  height: 77px;
+  transform: rotate(-72.6deg);
+  background: var(--yellow);
+}
+
+.yellow-clothes .clothes1.top-line {
+  background: transparent;
+  border-top: 3px solid #000;
+}
+
+.yellow-clothes .clothes2 {
+  left: 686px;
+  top: 762px;
+  width: 132px;
+  height: 77px;
+  transform: rotate(-39.6deg);
+  background: var(--yellow);
+}
+
+.yellow-clothes .clothes2.top-line {
+  background: transparent;
+  border-top: 3px solid #000;
+}
+
+.yellow-clothes .clothes3 {
+  left: 784px;
+  top: 722px;
+  width: 86px;
+  height: 77px;
+  transform: rotate(-8.6deg);
+  background: var(--yellow);
+}
+
+.yellow-clothes .clothes3.top-line {
+  background: transparent;
+  border-top: 3px solid #000;
+}
+
+.yellow-clothes .clothes4 {
+  left: 867px;
+  top: 712px;
+  width: 12px;
+  height: 21px;
+  transform: rotate(-31deg);
+  background: var(--yellow);
+}
+
+.yellow-clothes .clothes4.top-line {
+  background: transparent;
+  border-top: 3px solid #000;
+}
+
+.yellow-clothes .clothes5 {
+  left: 867px;
+  top: 712px;
+  width: 12px;
+  height: 21px;
+  transform: rotate(31deg);
+  background: var(--yellow);
+}
+
+.yellow-clothes .clothes5.top-line {
+  background: transparent;
+  border-top: 3px solid #000;
 }
 
 /* background: rgba(255, 0, 0, 0.6); */
