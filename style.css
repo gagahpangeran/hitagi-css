@@ -21,7 +21,7 @@
 .example img {
   width: 100%;
   height: auto;
-  opacity: 0.8;
+  opacity: 0;
 }
 
 .left-side-hair,
@@ -36,7 +36,7 @@
 .right-bottom-hair,
 .right-float-hair {
   /* display: none; */
-  opacity: 0;
+  opacity: 1;
 }
 
 .container {
@@ -837,6 +837,83 @@
 .yellow-clothes .clothes5.top-line {
   background: transparent;
   border-top: 3px solid #000;
+}
+
+.neck1 {
+  left: 390px;
+  top: 375px;
+  width: 57px;
+  height: 418px;
+}
+
+.neck1 .line {
+  left: 6px;
+  top: -731px;
+  width: 558px;
+  height: 1464px;
+  border-width: 3px;
+  background: var(--cream);
+}
+
+.neck2 {
+  left: 437px;
+  top: 746px;
+  width: 10px;
+  height: 90px;
+  border-radius: 50%;
+  border-width: 0 3px 0 0;
+  transform: rotate(2deg);
+}
+
+.neck3 {
+  left: 417px;
+  top: 747px;
+  width: 74px;
+  height: 71px;
+  border-radius: 50%;
+}
+
+.neck3 .line {
+  left: -48px;
+  top: -26px;
+  width: 74px;
+  height: 71px;
+  border-width: 3px;
+  box-shadow: 27px 20px 0 0 var(--cream);
+}
+
+.neck4 {
+  left: 273px;
+  top: 726px;
+  width: 150px;
+  height: 151px;
+  border-radius: 50%;
+}
+
+.neck4 .line {
+  left: -44px;
+  top: 34px;
+  width: 843px;
+  height: 320px;
+  border-width: 3px;
+  background: var(--cream);
+}
+
+.neck5 {
+  left: 113px;
+  top: 784px;
+  width: 182px;
+  height: 174px;
+  border-radius: 50%;
+}
+
+.neck5 .line {
+  left: -591px;
+  top: -278px;
+  width: 856px;
+  height: 416px;
+  border-width: 3px;
+  box-shadow: 33px 44px 0 0 var(--cream);
 }
 
 /* background: rgba(255, 0, 0, 0.6); */
