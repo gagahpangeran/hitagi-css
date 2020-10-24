@@ -981,4 +981,52 @@
   background: var(--cream);
 }
 
+.small-clothes1 {
+  left: 173px;
+  top: 862px;
+  width: 151px;
+  height: 104px;
+  transform: rotate(-8.2deg);
+  border-width: 0 0 0 5px;
+  box-shadow: -60px 5px 0 0 var(--white);
+}
+
+.small-clothes2 {
+  left: 230px;
+  top: 853px;
+  width: 32px;
+  height: 55px;
+  transform: rotate(14.5deg);
+  background: var(--white);
+}
+
+.small-clothes2.top-line {
+  background: transparent;
+  border-top: 3px solid #000;
+}
+
+.small-clothes3 {
+  left: 87px;
+  top: 874px;
+  width: 163px;
+  height: 55px;
+  transform: rotate(-18.2deg);
+  background: var(--white);
+}
+
+.small-clothes3.top-line {
+  background: transparent;
+  border-top: 3px solid #000;
+}
+
+.small-clothes5 {
+  left: -29px;
+  top: 883px;
+  width: 237px;
+  height: 103px;
+  border-width: 3px;
+  transform: rotate(-10.1deg);
+  background: var(--black);
+}
+
 /* background: rgba(255, 0, 0, 0.6); */
