@@ -7,6 +7,8 @@
   --violet: #a95c9d;
   --purple: #502654;
   --cream: #f8ebdb;
+  --black: #1d1b27;
+  --white: #efefed;
 }
 
 .example {
@@ -33,7 +35,7 @@
 .right-bottom-hair,
 .right-float-hair {
   /* display: none; */
-  opacity: 1;
+  opacity: 0;
 }
 
 .container {
@@ -619,17 +621,6 @@
   box-shadow: 25px 0 0 0 var(--purple);
 }
 
-.c-hair9 {
-  left: 1176px;
-  top: -1344px;
-  width: 1540px;
-  height: 2364px;
-  border-width: 4px;
-  border-radius: 50%;
-  /* border-color: rgba(0, 0, 255, 0.5); */
-  /* background: rgba(255, 0, 0, 0.6); */
-}
-
 .right-bottom-hair .hair9 {
   left: calc(1203px - 50px);
   top: 0px;
@@ -677,6 +668,76 @@
   width: 991px;
   height: 870px;
   border-width: 4px;
+}
+
+.black-clothes .clothes1 {
+  left: 1154px;
+  top: 786px;
+  width: 201px;
+  height: 508px;
+  border-top: 4px solid #000;
+  transform: skewY(49deg);
+  background: var(--black);
+}
+
+.black-clothes .clothes2 {
+  left: 927px;
+  top: 688px;
+  width: 227px;
+  height: 258px;
+  border-top: 4px solid #000;
+  transform: skewY(-9deg);
+  background: var(--black);
+}
+
+.black-clothes .clothes3 {
+  left: 819px;
+  top: 738px;
+  width: 108px;
+  height: 258px;
+  border-top: 4px solid #000;
+  transform: skewY(-31deg);
+  background: var(--black);
+}
+
+.black-clothes .clothes4 {
+  left: 718px;
+  top: 840px;
+  width: 101px;
+  height: 258px;
+  border-top: 4px solid #000;
+  transform: skewY(-54deg);
+  background: var(--black);
+}
+
+.white-clothes .clothes1 {
+  left: 863px;
+  top: 716px;
+  width: 57px;
+  height: 258px;
+  border-top: 3px solid #000;
+  transform: skewY(-9deg);
+  background: var(--white);
+}
+
+.white-clothes .clothes2 {
+  left: 789px;
+  top: 741px;
+  width: 75px;
+  height: 258px;
+  border-top: 3.8px solid #000;
+  transform: skewY(-29deg);
+  background: var(--white);
+}
+
+.white-clothes .clothes3 {
+  left: 728px;
+  top: 829px;
+  width: 61px;
+  height: 258px;
+  border-top: 6px solid #000;
+  transform: skewY(-66deg);
+  background: var(--white);
 }
 
 /* background: rgba(255, 0, 0, 0.6); */
