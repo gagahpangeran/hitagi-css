@@ -5,7 +5,11 @@
 
 :root {
   --violet: #a95c9d;
-  --purple: #502654;
+  --violet2: #8b4481;
+  --violet3: #75336c;
+  --purple: #512655;
+  --purple2: #56295a;
+  --purple3: #4b244f;
   --cream: #f8ebdb;
   --black: #1d1b27;
   --white: #efefed;
@@ -22,21 +26,6 @@
   width: 100%;
   height: auto;
   opacity: 0;
-}
-
-.left-side-hair,
-.top-left-hair,
-.mid-hair,
-.float-hair,
-.top-right-hair,
-.base-face,
-.left-ear,
-.right-ear,
-.left-bottom-hair,
-.right-bottom-hair,
-.right-float-hair {
-  /* display: none; */
-  opacity: 1;
 }
 
 .container {
@@ -319,7 +308,7 @@
   width: 1096px;
   height: 1209px;
   border-width: 4px;
-  background: var(--violet);
+  background: var(--violet2);
 }
 
 .top-right-hair .hair2 {
@@ -352,7 +341,7 @@
   width: 369px;
   height: 523px;
   border-width: 4px;
-  box-shadow: 200px -100px 0 0 var(--violet);
+  box-shadow: 200px -100px 0 0 var(--violet2);
 }
 
 .top-right-hair .hair4 {
@@ -384,7 +373,7 @@
   width: 409px;
   height: 795px;
   border-width: 4px;
-  box-shadow: 100px 0 0 0 var(--violet);
+  box-shadow: 100px 0 0 0 var(--violet2);
 }
 
 .top-right-hair .hair6 {
@@ -405,14 +394,14 @@
   left: 933px;
   width: 200px;
   height: 89px;
-  background: var(--violet);
+  background: var(--violet2);
 }
 
 .top-right-hair .hair8 {
   left: 1130px;
   width: 50px;
   height: 235px;
-  background: var(--violet);
+  background: var(--violet2);
 }
 
 .base-face .face1 {
@@ -540,7 +529,7 @@
   width: 726px;
   height: 2475px;
   border-width: 4px;
-  box-shadow: 50px 0 0 0 var(--purple);
+  box-shadow: 50px 0 0 0 var(--purple3);
 }
 
 .right-bottom-hair .hair4 {
@@ -571,7 +560,7 @@
   width: 1208px;
   height: 1964px;
   border-width: 4px;
-  background: var(--purple);
+  background: var(--violet3);
 }
 
 .right-bottom-hair .hair6 {
@@ -587,7 +576,7 @@
   width: 2875px;
   height: 2880px;
   border-width: 4px;
-  box-shadow: inset -25px 0 0 0 var(--purple);
+  box-shadow: inset -25px 0 0 0 var(--violet3);
 }
 
 .right-bottom-hair .hair7 {
@@ -603,7 +592,7 @@
   width: 2875px;
   height: 2880px;
   border-width: 4px;
-  box-shadow: -11px 21px 0 0 var(--purple);
+  box-shadow: -11px 21px 0 0 var(--violet3);
 }
 
 .right-bottom-hair .hair8 {
@@ -619,7 +608,7 @@
   width: 1663px;
   height: 2114px;
   border-width: 4px;
-  box-shadow: 25px 0 0 0 var(--purple);
+  box-shadow: 25px 0 0 0 var(--violet3);
 }
 
 .right-bottom-hair .hair9 {
@@ -636,7 +625,72 @@
   height: 2364px;
   border-width: 4px;
   border-radius: 50%;
-  box-shadow: -60px 0 0 0 var(--purple);
+  box-shadow: -60px 0 0 0 var(--violet3);
+}
+
+.right-bottom-hair .hair10 {
+  left: 1026px;
+  top: 281px;
+  width: 117px;
+  height: 131px;
+  background: var(--purple);
+}
+
+.right-bottom-hair .hair11 {
+  left: 1026px;
+  top: 410px;
+  width: 93px;
+  height: 131px;
+  background: var(--purple);
+}
+
+.right-bottom-hair .hair12 {
+  left: 995px;
+  top: 530px;
+  width: 93px;
+  height: 89px;
+  background: var(--purple);
+}
+
+.right-bottom-hair .hair13 {
+  left: 1101px;
+  top: 344px;
+  width: 93px;
+  height: 372px;
+  background: var(--violet3);
+}
+
+.right-bottom-hair .hair14 {
+  left: 1042px;
+  top: 595px;
+  width: 304px;
+  height: 278px;
+  background: var(--violet3);
+}
+
+.right-bottom-hair .hair15 {
+  left: 1321px;
+  top: 619px;
+  width: 49px;
+  height: 300px;
+  background: var(--violet3);
+}
+
+.right-bottom-hair .hair16 {
+  left: 1164px;
+  top: 368px;
+  width: 109px;
+  height: 300px;
+  background: var(--violet3);
+  transform: rotate(-30deg);
+}
+
+.right-bottom-hair .hair17 {
+  left: 1362px;
+  top: 653px;
+  width: 40px;
+  height: 36px;
+  background: var(--violet3);
 }
 
 .right-float-hair .hair1 {
@@ -653,7 +707,7 @@
   width: 1760px;
   height: 1760px;
   border-width: 4px;
-  box-shadow: 0 100px 0 0 var(--purple);
+  box-shadow: 0 100px 0 0 var(--purple3);
 }
 
 .right-float-hair .hair2 {
@@ -981,6 +1035,30 @@
   background: var(--cream);
 }
 
+.neck11 {
+  left: 445px;
+  top: 500px;
+  width: 304px;
+  height: 415px;
+  background: var(--cream);
+}
+
+.neck12 {
+  left: 275px;
+  top: 822px;
+  width: 211px;
+  height: 217px;
+  background: var(--cream);
+  transform: rotate(-20deg);
+}
+
+.neck13 {
+  left: 737px;
+  top: 738px;
+  width: 21px;
+  height: 30px;
+  background: var(--cream);
+}
 .small-clothes1 {
   left: 173px;
   top: 862px;
@@ -1027,6 +1105,14 @@
   border-width: 3px;
   transform: rotate(-10.1deg);
   background: var(--black);
+}
+
+.bg-hair {
+  left: 734px;
+  top: 500px;
+  width: 300px;
+  height: 300px;
+  background: var(--purple2);
 }
 
 /* background: rgba(255, 0, 0, 0.6); */
