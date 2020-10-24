@@ -16,15 +16,16 @@
 .example img {
   width: 100%;
   height: auto;
-  opacity: 1;
+  opacity: 0;
 }
 
 .left-side-hair,
 .top-left-hair,
 .mid-hair,
-.float-hair {
+.float-hair,
+.top-right-hair {
   /* display: none; */
-  opacity: 0;
+  opacity: 1;
 }
 
 .container {
@@ -289,9 +290,118 @@
   top: -283px;
   width: 382px;
   height: 974px;
-  border-radius: 50%;
   border-width: 3px;
   box-shadow: -10px 0 0 0 var(--violet);
 }
 
-/* background: rgba(255, 0, 0, 0.8); */
+.top-right-hair .hair1 {
+  left: 658px;
+  top: -77px;
+  width: 345px;
+  height: 706px;
+  border-radius: 50%;
+}
+
+.top-right-hair .hair1 .line {
+  left: 102px;
+  top: -658px;
+  width: 1096px;
+  height: 1209px;
+  border-width: 4px;
+  background: var(--violet);
+}
+
+.top-right-hair .hair2 {
+  left: 760px;
+  top: -735px;
+  width: 1096px;
+  height: 1209px;
+  border-radius: 50%;
+}
+
+.top-right-hair .hair2 .line {
+  left: -101px;
+  top: 658px;
+  width: 345px;
+  height: 706px;
+  border-width: 4px;
+}
+
+.top-right-hair .hair3 {
+  left: 812px;
+  top: -82px;
+  width: 363px;
+  height: 523px;
+  border-radius: 50%;
+}
+
+.top-right-hair .hair3 .line {
+  left: -167px;
+  top: 132px;
+  width: 369px;
+  height: 523px;
+  border-width: 4px;
+  box-shadow: 200px -100px 0 0 var(--violet);
+}
+
+.top-right-hair .hair4 {
+  left: 989px;
+  top: 257px;
+  width: 174px;
+  height: 185px;
+}
+
+.top-right-hair .hair4 .line {
+  left: -177px;
+  top: -339px;
+  width: 363px;
+  height: 523px;
+  border-width: 4px;
+}
+
+.top-right-hair .hair5 {
+  left: 803px;
+  top: -291px;
+  width: 418px;
+  height: 796px;
+  border-radius: 50%;
+}
+
+.top-right-hair .hair5 .line {
+  left: -40px;
+  top: 32px;
+  width: 409px;
+  height: 795px;
+  border-width: 4px;
+  box-shadow: 100px 0 0 0 var(--violet);
+}
+
+.top-right-hair .hair6 {
+  left: 1054px;
+  width: 170px;
+  height: 496px;
+}
+
+.top-right-hair .hair6 .line {
+  left: -251px;
+  top: -291px;
+  width: 418px;
+  height: 796px;
+  border-width: 4px;
+}
+
+.top-right-hair .hair7 {
+  left: 933px;
+  width: 200px;
+  height: 89px;
+  background: var(--violet);
+}
+
+.top-right-hair .hair8 {
+  left: 1130px;
+  width: 50px;
+  height: 235px;
+  background: var(--violet);
+}
+
+/* background: rgba(255, 0, 0, 0.6); */
