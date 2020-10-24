@@ -25,7 +25,8 @@
 .mid-hair,
 .float-hair,
 .top-right-hair,
-.base-face {
+.base-face,
+.left-ear {
   /* display: none; */
   opacity: 1;
 }
@@ -438,6 +439,25 @@
   width: 885px;
   height: 893px;
   border-width: 5px;
+}
+
+.left-ear .ear1 {
+  left: 306px;
+  top: 89px;
+  width: 87px;
+  height: 296px;
+  border-radius: 100% 0 0 100% / 50% 0 0 50%;
+  border-width: 4px 0 4px 4px;
+  background: var(--cream);
+}
+
+.left-ear .ear2 {
+  left: 360px;
+  top: 266px;
+  width: 50px;
+  height: 91px;
+  border-radius: 0 0 0 100%;
+  border-width: 0px 0 0px 4px;
 }
 
 /* background: rgba(255, 0, 0, 0.6); */
