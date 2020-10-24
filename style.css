@@ -5,6 +5,7 @@
 
 :root {
   --violet: #a95c9d;
+  --cream: #f8ebdb;
 }
 
 .example {
@@ -23,7 +24,8 @@
 .top-left-hair,
 .mid-hair,
 .float-hair,
-.top-right-hair {
+.top-right-hair,
+.base-face {
   /* display: none; */
   opacity: 1;
 }
@@ -402,6 +404,40 @@
   width: 50px;
   height: 235px;
   background: var(--violet);
+}
+
+.base-face .face1 {
+  left: 164px;
+  top: -187px;
+  width: 885px;
+  height: 893px;
+  border-radius: 50%;
+}
+
+.base-face .face1 .line {
+  left: 220px;
+  top: 48px;
+  width: 700px;
+  height: 885px;
+  border-width: 5px;
+  background: var(--cream);
+}
+
+.base-face .face2 {
+  left: 384px;
+  top: -139px;
+  width: 700px;
+  height: 885px;
+  border-radius: 50%;
+  border-width: 5px;
+}
+
+.base-face .face2 .line {
+  left: -220px;
+  top: -48px;
+  width: 885px;
+  height: 893px;
+  border-width: 5px;
 }
 
 /* background: rgba(255, 0, 0, 0.6); */
