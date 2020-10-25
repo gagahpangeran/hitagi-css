@@ -12,6 +12,7 @@
   --purple3: #4b244f;
   --purple-shadow: #7a3c80;
   --cream: #f8ebdb;
+  --cream-shadow: #c88687;
   --black: #1d1b27;
   --white: #efefed;
   --yellow: #dbd834;
@@ -1081,14 +1082,14 @@
   border-top: 3px solid #000;
 }
 
-.neck1 {
+.neck .neck1 {
   left: 390px;
   top: 375px;
   width: 57px;
   height: 418px;
 }
 
-.neck1 .line {
+.neck .neck1 .line {
   left: 6px;
   top: -731px;
   width: 558px;
@@ -1097,7 +1098,7 @@
   background: var(--cream);
 }
 
-.neck2 {
+.neck .neck2 {
   left: 437px;
   top: 746px;
   width: 10px;
@@ -1107,7 +1108,7 @@
   transform: rotate(2deg);
 }
 
-.neck3 {
+.neck .neck3 {
   left: 417px;
   top: 747px;
   width: 74px;
@@ -1115,7 +1116,7 @@
   border-radius: 50%;
 }
 
-.neck3 .line {
+.neck .neck3 .line {
   left: -48px;
   top: -26px;
   width: 74px;
@@ -1124,7 +1125,7 @@
   box-shadow: 27px 20px 0 0 var(--cream);
 }
 
-.neck4 {
+.neck .neck4 {
   left: 273px;
   top: 726px;
   width: 150px;
@@ -1132,7 +1133,7 @@
   border-radius: 50%;
 }
 
-.neck4 .line {
+.neck .neck4 .line {
   left: -44px;
   top: 34px;
   width: 843px;
@@ -1141,7 +1142,7 @@
   background: var(--cream);
 }
 
-.neck5 {
+.neck .neck5 {
   left: 113px;
   top: 784px;
   width: 182px;
@@ -1149,7 +1150,7 @@
   border-radius: 50%;
 }
 
-.neck5 .line {
+.neck .neck5 .line {
   left: -591px;
   top: -278px;
   width: 856px;
@@ -1158,7 +1159,7 @@
   box-shadow: 33px 44px 0 0 var(--cream);
 }
 
-.neck6 {
+.neck .neck6 {
   left: 788px;
   top: 422px;
   width: 28px;
@@ -1168,7 +1169,7 @@
   background: var(--cream);
 }
 
-.neck7 {
+.neck .neck7 {
   left: 749px;
   top: 662px;
   width: 63px;
@@ -1179,17 +1180,17 @@
   box-shadow: -10px 10px 0 0 var(--cream);
 }
 
-.neck8 {
+.neck .neck8 {
   left: 645px;
   top: 870px;
   width: 30px;
   height: 48px;
   transform: rotate(34.5deg);
-  background: var(--cream);
+  background: var(--white);
   border-left: 3px solid #000;
 }
 
-.neck9 {
+.neck .neck9 {
   left: 573px;
   top: 807px;
   width: 135px;
@@ -1197,7 +1198,7 @@
   border-radius: 50%;
 }
 
-.neck9 .line {
+.neck .neck9 .line {
   left: -299px;
   top: -286px;
   width: 465px;
@@ -1206,7 +1207,7 @@
   box-shadow: 50px 0 0 0 var(--cream);
 }
 
-.neck10 {
+.neck .neck10 {
   left: 515px;
   top: 853px;
   width: 71px;
@@ -1214,7 +1215,7 @@
   border-radius: 50%;
 }
 
-.neck10 .line {
+.neck .neck10 .line {
   left: 24px;
   top: 15px;
   width: 99px;
@@ -1223,7 +1224,7 @@
   background: var(--cream);
 }
 
-.neck11 {
+.neck .neck11 {
   left: 445px;
   top: 500px;
   width: 304px;
@@ -1231,7 +1232,7 @@
   background: var(--cream);
 }
 
-.neck12 {
+.neck .neck12 {
   left: 275px;
   top: 822px;
   width: 211px;
@@ -1240,13 +1241,84 @@
   transform: rotate(-20deg);
 }
 
-.neck13 {
+.neck .neck13 {
   left: 737px;
   top: 738px;
   width: 21px;
   height: 30px;
   background: var(--cream);
 }
+
+.neck .neck14 {
+  left: 274px;
+  top: 885px;
+  width: 109px;
+  height: 6px;
+  border-radius: 50%;
+  border-bottom: 2px solid #000;
+}
+
+.neck .neck15 {
+  left: 406px;
+  top: 876px;
+  width: 8px;
+  height: 60px;
+  border-right: 2px solid #000;
+  border-radius: 50%;
+  background: var(--cream);
+  transform: rotate(-47deg);
+}
+
+.neck .neck16 {
+  left: 490px;
+  top: 865px;
+  width: 8px;
+  height: 60px;
+  border-left: 2px solid #000;
+  border-radius: 50%;
+  transform: rotate(-24deg);
+}
+
+.neck .shadow1 {
+  left: 240px;
+  top: 854px;
+  border-left: 63px solid transparent;
+  border-bottom: 38px solid var(--cream-shadow);
+  transform: skewX(-23deg);
+  border-radius: 0px;
+}
+
+.neck .shadow2 {
+  left: 515px;
+  top: 889px;
+  width: 20px;
+  height: 27px;
+  background: var(--cream-shadow);
+  transform: rotate(-49.3deg);
+  border-radius: 5px;
+}
+
+.neck .shadow3 {
+  left: 395px;
+  top: 890px;
+  width: 50px;
+  height: 29px;
+  background: var(--cream-shadow);
+  transform: rotate(-28.6deg) skewX(-46deg);
+  border-radius: 7px;
+}
+
+.neck .shadow4 {
+  left: 239px;
+  top: 854px;
+  width: 65px;
+  height: 40px;
+  transform: skewX(-23deg);
+  border-bottom: 2px solid var(--cream-shadow);
+  border-right: 2px solid var(--cream-shadow);
+  border-radius: 3px;
+}
+
 .small-clothes1 {
   left: 173px;
   top: 862px;
