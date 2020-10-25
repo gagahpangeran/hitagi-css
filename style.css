@@ -10,6 +10,7 @@
   --purple: #512655;
   --purple2: #56295a;
   --purple3: #4b244f;
+  --purple-shadow: #7a3c80;
   --cream: #f8ebdb;
   --black: #1d1b27;
   --white: #efefed;
@@ -25,7 +26,7 @@
 .example img {
   width: 100%;
   height: auto;
-  opacity: 0;
+  opacity: 1;
 }
 
 .container {
@@ -90,6 +91,26 @@
   border-width: 5px;
   transform: rotate(2.6deg);
   box-shadow: -135px 0 0 0 var(--violet);
+}
+
+.left-side-hair .hair2-shadow {
+  left: 317px;
+  top: -162px;
+  width: 378px;
+  height: 1005px;
+  border-width: 5px;
+  transform: rotate(6deg);
+  border-radius: 50%;
+}
+
+.left-side-hair .hair2-shadow .line {
+  left: 67px;
+  top: 118px;
+  width: 378px;
+  height: 989px;
+  border-width: 5px;
+  transform: rotate(2.6deg);
+  box-shadow: -17px -101px 0 0 var(--purple-shadow);
 }
 
 .left-side-hair .hair3 {
@@ -169,6 +190,14 @@
   background: var(--violet);
 }
 
+.left-side-hair .hair9 {
+  left: 394px;
+  top: 135px;
+  width: 100px;
+  height: 99px;
+  background: var(--violet);
+}
+
 .top-left-hair .hair1 {
   left: 446px;
   top: 0px;
@@ -232,6 +261,31 @@
   box-shadow: -100px -35px 0 0 var(--violet);
 }
 
+.top-left-hair .hair4-shadow {
+  left: 479px;
+  top: -40px;
+  width: 308px;
+  height: 406px;
+  border-radius: 50%;
+}
+
+.top-left-hair .hair4-shadow .shadow {
+  left: -143px;
+  top: -85px;
+  width: 1546px;
+  height: 1552px;
+  border-radius: 50%;
+  box-shadow: 114px -194px 0 0 var(--purple-shadow);
+}
+
+.top-left-hair .hair-shadow {
+  left: 596px;
+  top: -33px;
+  width: 68px;
+  height: 35px;
+  background: var(--violet);
+  transform: rotate(-40.5deg) skewX(-62.2deg);
+}
 .mid-hair .hair1 {
   left: 715px;
   width: 32px;
@@ -474,7 +528,16 @@
   height: 610px;
   border-width: 4px;
   border-radius: 50%;
-  background: var(--violet);
+  background: var(--purple-shadow);
+}
+
+.left-bottom-hair .shadow {
+  left: -4px;
+  top: 104px;
+  width: 209px;
+  height: 325px;
+  border-radius: 50%;
+  box-shadow: -20px -20px 0 0 var(--violet);
 }
 
 .right-bottom-hair .hair1 {
@@ -1114,5 +1177,3 @@
   height: 300px;
   background: var(--purple2);
 }
-
-/* background: rgba(255, 0, 0, 0.6); */
