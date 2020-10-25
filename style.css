@@ -5,7 +5,7 @@
 
 :root {
   --violet: #a95c9d;
-  --violet2: #8b4481;
+  --violet2: #9f5494;
   --violet3: #75336c;
   --purple: #512655;
   --purple2: #56295a;
@@ -365,6 +365,16 @@
   background: var(--violet2);
 }
 
+.top-right-hair .hair1 .line .shadow {
+  left: -12px;
+  top: 675px;
+  width: 196px;
+  height: 622px;
+  border-radius: 50%;
+  transform: rotate(-25.2deg);
+  background: var(--purple-shadow);
+}
+
 .top-right-hair .hair2 {
   left: 760px;
   top: -735px;
@@ -395,22 +405,23 @@
   width: 369px;
   height: 523px;
   border-width: 4px;
-  box-shadow: 200px -100px 0 0 var(--violet2);
+  box-shadow: 27px -10px 0 0 var(--purple-shadow);
 }
 
 .top-right-hair .hair4 {
   left: 989px;
-  top: 257px;
+  top: 126px;
   width: 174px;
-  height: 185px;
+  height: 316px;
 }
 
 .top-right-hair .hair4 .line {
   left: -177px;
-  top: -339px;
+  top: -208px;
   width: 363px;
   height: 523px;
   border-width: 4px;
+  box-shadow: inset -87px 41px 0 0 var(--violet2);
 }
 
 .top-right-hair .hair5 {
@@ -456,6 +467,82 @@
   width: 50px;
   height: 235px;
   background: var(--violet2);
+}
+
+.top-right-hair .hair9 {
+  left: 824px;
+  top: -81px;
+  width: 16px;
+  height: 305px;
+  transform: rotate(-30.3deg);
+  background: var(--violet2);
+  border-radius: 100% 0 0 100% / 50% 0 0 50%;
+}
+
+.top-right-hair .hair10 {
+  left: 813px;
+  top: -116px;
+  width: 28px;
+  height: 305px;
+  transform: rotate(-30.3deg) skewY(-80deg);
+  background: var(--violet2);
+}
+
+.top-right-hair .hair11 {
+  left: 1020px;
+  top: 75px;
+  width: 112px;
+  height: 260px;
+  background: var(--violet2);
+}
+
+.top-right-hair .hair12 {
+  left: 1020px;
+  top: 316px;
+  width: 68px;
+  height: 62px;
+  background: var(--violet2);
+}
+
+.top-right-hair .hair13 {
+  left: 976px;
+  top: 75px;
+  width: 49px;
+  height: 108px;
+  background: var(--violet2);
+}
+
+.top-right-hair .shadow1 {
+  left: 1020px;
+  top: 193px;
+  width: 64px;
+  height: 225px;
+}
+
+.top-right-hair .shadow1 .shadow {
+  left: -243px;
+  top: -252px;
+  width: 297px;
+  height: 516px;
+  border-radius: 50%;
+  box-shadow: 1px 35px 0 0 var(--purple-shadow);
+}
+
+.top-right-hair .shadow2 {
+  left: 832px;
+  top: 97px;
+  width: 385px;
+  height: 101px;
+}
+
+.top-right-hair .shadow2 .shadow {
+  left: -97px;
+  top: -181px;
+  width: 482px;
+  height: 266px;
+  border-radius: 50%;
+  transform: rotate(2.3deg) skewX(21deg);
+  box-shadow: 16px 10px 0 0 rgba(255, 255, 255, 0.4);
 }
 
 .base-face .face1 {
