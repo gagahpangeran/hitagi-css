@@ -27,7 +27,7 @@
 .example img {
   width: 100%;
   height: auto;
-  opacity: 0;
+  opacity: 0.8;
 }
 
 .container {
@@ -51,6 +51,12 @@
 .wrapper div {
   box-sizing: border-box;
   position: absolute;
+  display: none;
+}
+
+.wrapper div.left-eye-brow,
+.wrapper div.left-eye-brow * {
+  display: block;
 }
 
 .line {
@@ -1589,4 +1595,112 @@
   width: 300px;
   height: 300px;
   background: var(--purple2);
+}
+
+.right-eye-brow .eye-brow1 {
+  left: 817px;
+  top: 247px;
+  width: 298px;
+  height: 95px;
+  border-radius: 50%;
+}
+
+.right-eye-brow .eye-brow1 .line1 {
+  left: -32px;
+  top: 13px;
+  width: 171px;
+  height: 95px;
+  border-radius: 50%;
+  border-top: 2px solid #000;
+  box-shadow: 0 -10px 0 0 var(--purple2);
+}
+
+.right-eye-brow .eye-brow1 .line2 {
+  left: 164px;
+  top: 8px;
+  width: 46px;
+  height: 31px;
+  border-radius: 50%;
+  border-top: 2px solid #000;
+  box-shadow: 0 -10px 0 0 var(--purple2);
+}
+
+.right-eye-brow .c-eye-brow2 {
+  left: 817px;
+  top: 247px;
+  width: 298px;
+  height: 95px;
+  border-width: 2px;
+  border-radius: 50%;
+}
+
+.right-eye-brow .eye-brow2 {
+  left: 859px;
+  top: 220px;
+  width: 151px;
+  height: 41px;
+}
+
+.right-eye-brow .eye-brow2 .line {
+  left: -42px;
+  top: 27px;
+  width: 298px;
+  height: 95px;
+  border-width: 2px;
+}
+
+.left-eye-brow .eye-brow1 {
+  left: -161px;
+  top: -17px;
+  width: 988px;
+  height: 989px;
+  border-radius: 50%;
+}
+
+.left-eye-brow .eye-brow1 .e-eye-brow1 {
+  left: 881px;
+  top: 188px;
+  width: 37px;
+  height: 52px;
+}
+
+.left-eye-brow .eye-brow1 .e-eye-brow1 .line {
+  left: -293px;
+  top: -17px;
+  width: 379px;
+  height: 402px;
+  border-width: 2px;
+  box-shadow: 0 -20px 0 0 var(--purple);
+}
+
+.left-eye-brow .eye-brow1 .e-eye-brow2 {
+  left: 755px;
+  top: 75px;
+  width: 127px;
+  height: 131px;
+}
+
+.left-eye-brow .eye-brow1 .e-eye-brow2 .line {
+  left: -772px;
+  top: -82px;
+  width: 988px;
+  height: 989px;
+  border-width: 2px;
+  box-shadow: 0 -20px 0 0 var(--purple);
+}
+
+.left-eye-brow .eye-brow2 {
+  left: 600px;
+  top: 54px;
+  width: 152px;
+  height: 158px;
+  /* background: rgba(255, 0, 0, 0.5); */
+}
+
+.left-eye-brow .eye-brow2 .line {
+  left: -761px;
+  top: -71px;
+  width: 988px;
+  height: 989px;
+  border-width: 2px;
 }
