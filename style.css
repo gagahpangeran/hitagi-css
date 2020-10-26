@@ -1085,7 +1085,7 @@
 .neck .neck1 {
   left: 390px;
   top: 375px;
-  width: 57px;
+  width: 61px;
   height: 418px;
 }
 
@@ -1094,7 +1094,7 @@
   top: -731px;
   width: 558px;
   height: 1464px;
-  border-width: 3px;
+  border-width: 0px;
   background: var(--cream);
 }
 
@@ -1166,7 +1166,7 @@
   height: 358px;
   transform: rotate(29.8deg);
   border-width: 0 3px 0 0;
-  background: var(--cream);
+  background: var(--cream-shadow);
 }
 
 .neck .neck7 {
@@ -1177,7 +1177,7 @@
   border-width: 3px;
   border-top-color: transparent;
   border-right-color: transparent;
-  box-shadow: -10px 10px 0 0 var(--cream);
+  box-shadow: -10px 10px 0 0 var(--cream-shadow);
 }
 
 .neck .neck8 {
@@ -1246,7 +1246,7 @@
   top: 738px;
   width: 21px;
   height: 30px;
-  background: var(--cream);
+  background: var(--cream-shadow);
 }
 
 .neck .neck14 {
@@ -1277,6 +1277,30 @@
   border-left: 2px solid #000;
   border-radius: 50%;
   transform: rotate(-24deg);
+}
+
+.neck .neck17 {
+  left: 390px;
+  top: 375px;
+  width: 57px;
+  height: 418px;
+}
+
+.neck .neck17 .line {
+  left: 6px;
+  top: -731px;
+  width: 558px;
+  height: 1464px;
+  border-width: 3px;
+}
+
+.neck .neck18 {
+  left: 572px;
+  top: 860px;
+  width: 135px;
+  height: 145px;
+  background: var(--cream);
+  transform: skewY(-12deg);
 }
 
 .neck .shadow1 {
@@ -1317,6 +1341,73 @@
   border-bottom: 2px solid var(--cream-shadow);
   border-right: 2px solid var(--cream-shadow);
   border-radius: 3px;
+}
+
+.neck .shadow5 {
+  left: 396px;
+  top: -356px;
+  width: 558px;
+  height: 1464px;
+  border-radius: 50%;
+}
+
+.neck .shadow5 .s-shadow1 {
+  left: -646px;
+  top: 78px;
+  width: 1117px;
+  height: 1228px;
+  border-radius: 50%;
+}
+
+.neck .shadow5 .s-shadow1 .ss-shadow {
+  left: 212px;
+  top: -191px;
+  width: 1117px;
+  height: 1228px;
+  border-radius: 50%;
+}
+
+.neck .shadow5 .s-shadow1 .ss-shadow .sss-shadow {
+  left: 410px;
+  top: 135px;
+  width: 1117px;
+  height: 1228px;
+  border-radius: 50%;
+  background: var(--cream-shadow);
+}
+
+.neck .shadow5 .s-shadow2 {
+  left: -18px;
+  top: 92px;
+  width: 1117px;
+  height: 1228px;
+  border-radius: 50%;
+}
+
+.neck .shadow5 .s-shadow2 .ss-shadow {
+  left: 33px;
+  top: 459px;
+  width: 1117px;
+  height: 1228px;
+  border-radius: 50%;
+  box-shadow: -120px 0 0 0 var(--cream-shadow);
+}
+
+.neck .shadow6 {
+  left: 613px;
+  top: 500px;
+  width: 135px;
+  height: 415px;
+  background: var(--cream-shadow);
+}
+
+.neck .shadow7 {
+  left: 622px;
+  top: 500px;
+  width: 127px;
+  height: 415px;
+  background: var(--cream-shadow);
+  transform: skewX(-22deg);
 }
 
 .small-clothes1 {
