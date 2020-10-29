@@ -15,6 +15,7 @@
   --cream-shadow: #c88687;
   --black: #1d1b27;
   --white: #efefed;
+  --white2: #fdfdf9;
   --yellow: #dbd834;
 }
 
@@ -27,7 +28,7 @@
 .example img {
   width: 100%;
   height: auto;
-  opacity: 0.8;
+  opacity: 0;
 }
 
 .container {
@@ -51,11 +52,11 @@
 .wrapper div {
   box-sizing: border-box;
   position: absolute;
-  display: none;
+  display: block;
 }
 
-.wrapper div.left-eye-brow,
-.wrapper div.left-eye-brow * {
+.wrapper div.nose,
+.wrapper div.nose * {
   display: block;
 }
 
@@ -1694,7 +1695,6 @@
   top: 54px;
   width: 152px;
   height: 158px;
-  /* background: rgba(255, 0, 0, 0.5); */
 }
 
 .left-eye-brow .eye-brow2 .line {
@@ -1704,3 +1704,89 @@
   height: 989px;
   border-width: 2px;
 }
+
+.nose .nose1 {
+  --ht: 5px;
+  left: 695px;
+  top: calc(440px - var(--ht));
+  width: 46px;
+  height: calc(54px + var(--ht));
+}
+
+.nose .nose1 .color {
+  left: -101px;
+  top: calc(-84px + var(--ht));
+  width: 137px;
+  height: 145px;
+  border-radius: 50%;
+  box-shadow: 20px -8px 0 0 #000;
+}
+
+.nose .nose2 {
+  left: 726px;
+  top: 381px;
+  width: 34px;
+  height: 73px;
+}
+
+.nose .nose2 .color {
+  left: 12px;
+  top: -28px;
+  width: 174px;
+  height: 175px;
+  border-radius: 50%;
+  background: var(--cream);
+  box-shadow: -8px 8px 0 0 black;
+}
+
+.nose .nose3 {
+  left: 725px;
+  top: 447px;
+  width: 13px;
+  height: 26px;
+  border-radius: 50%;
+  transform: rotate(18deg);
+  box-shadow: 8px 0 0 0 var(--cream);
+}
+
+.nose .nose4 {
+  left: 664px;
+  top: 463px;
+  width: 19px;
+  height: 4px;
+  border-radius: 50%;
+  transform: rotate(35deg);
+  border-top: 2px solid #000;
+}
+
+.nose .nose5 {
+  left: 677px;
+  top: 382px;
+  width: 37px;
+  height: 65px;
+  transform: rotate(20deg);
+  background: var(--white2);
+  border-radius: 0% 0% 41% 29% / 0% 0% 18% 38%;
+}
+
+.nose .nose6 {
+  left: 675px;
+  top: 398px;
+  width: 51px;
+  height: 4px;
+  transform: rotate(-27.6deg);
+  background: var(--white2);
+  box-shadow: -2px -2px 0 0 var(--cream);
+  border-radius: 29% 50% 0% 0% / 45% 100% 0% 0%;
+}
+
+.nose .nose7 {
+  left: 664px;
+  top: 375px;
+  width: 60px;
+  height: 24px;
+  transform: rotate(-25.7deg);
+  background: var(--cream);
+}
+
+/* background: rgba(255, 0, 0, 0.5); */
