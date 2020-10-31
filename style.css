@@ -24,24 +24,13 @@
   --grey: #bab7d4;
 }
 
-.example {
-  width: 1600px;
-  margin: 50px auto;
-  border: 5px solid #000;
-}
-
-.example img {
-  width: 100%;
-  height: auto;
-  opacity: 1;
-}
-
 .container {
   width: 1600px;
   height: 900px;
   border: 5px solid #000;
-  margin: -960px auto 0;
+  margin: 20px auto;
   position: relative;
+  background: #cacaca;
 }
 
 .hid {
@@ -151,7 +140,7 @@
   top: 12px;
   width: 305px;
   height: 187px;
-  border-width: 3.5px;
+  border-width: 3px;
   transform: rotate(37.5deg);
   box-shadow: 0 -6px 0 0 var(--violet);
 }
@@ -329,7 +318,7 @@
   top: 223px;
   left: 485px;
   width: 133px;
-  height: 268px;
+  height: 275px;
 }
 
 .float-hair .hair1 .line {
@@ -342,7 +331,7 @@
 .float-hair .hair2 {
   left: 488px;
   top: -156px;
-  width: calc(367px / 2);
+  width: 183px;
   height: 687px;
   border-radius: 100% 0 0 100% / 50% 0 0 50%;
 }
@@ -354,6 +343,14 @@
   height: 974px;
   border-width: 3px;
   box-shadow: -10px 0 0 0 var(--violet);
+}
+
+.float-hair .hair3 {
+  left: 590px;
+  top: 498px;
+  width: 18px;
+  height: 14px;
+  background: var(--cream);
 }
 
 .top-right-hair .hair1 {
@@ -1611,7 +1608,7 @@
   top: 500px;
   width: 300px;
   height: 300px;
-  background: var(--purple2);
+  background: var(--purple);
 }
 
 .right-eye-brow .eye-brow1 {
@@ -1629,7 +1626,7 @@
   height: 95px;
   border-radius: 50%;
   border-top: 2px solid #000;
-  box-shadow: 0 -10px 0 0 var(--purple2);
+  box-shadow: 0 -10px 0 0 var(--purple-shadow);
 }
 
 .right-eye-brow .eye-brow1 .line2 {
@@ -1639,7 +1636,7 @@
   height: 31px;
   border-radius: 50%;
   border-top: 2px solid #000;
-  box-shadow: 0 -10px 0 0 var(--purple2);
+  box-shadow: 0 -10px 0 0 var(--purple-shadow);
 }
 
 .right-eye-brow .c-eye-brow2 {
@@ -1687,7 +1684,7 @@
   width: 379px;
   height: 402px;
   border-width: 2px;
-  box-shadow: 0 -20px 0 0 var(--purple);
+  box-shadow: 0 -20px 0 0 var(--purple-shadow);
 }
 
 .left-eye-brow .eye-brow1 .e-eye-brow2 {
@@ -1703,7 +1700,7 @@
   width: 988px;
   height: 989px;
   border-width: 2px;
-  box-shadow: 0 -20px 0 0 var(--purple);
+  box-shadow: 0 -20px 0 0 var(--purple-shadow);
 }
 
 .left-eye-brow .eye-brow2 {
@@ -1724,14 +1721,14 @@
 .nose .nose1 {
   --ht: 5px;
   left: 695px;
-  top: calc(440px - var(--ht));
+  top: 435px;
   width: 46px;
-  height: calc(54px + var(--ht));
+  height: 59px;
 }
 
 .nose .nose1 .color {
   left: -101px;
-  top: calc(-84px + var(--ht));
+  top: -79px;
   width: 137px;
   height: 145px;
   border-radius: 50%;
@@ -2473,5 +2470,3 @@
   border-radius: 50%;
   box-shadow: 0 -10px 0 0 #000;
 }
-
-/* background: rgba(255, 0, 0, 0.5); */
