@@ -33,7 +33,7 @@
 .example img {
   width: 100%;
   height: auto;
-  opacity: 0;
+  opacity: 1;
 }
 
 .container {
@@ -57,11 +57,6 @@
 .wrapper div {
   box-sizing: border-box;
   position: absolute;
-  display: block;
-}
-
-.wrapper div.right-eye,
-.wrapper div.right-eye * {
   display: block;
 }
 
@@ -653,6 +648,24 @@
   width: 78px;
   height: 50px;
   background: var(--cream);
+}
+
+.base-face .face4 {
+  left: 595px;
+  top: 318px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--white2);
+}
+
+.base-face .face5 {
+  left: 911px;
+  top: 467px;
+  width: 14px;
+  height: 12px;
+  border-radius: 33% 38% 31% 69% / 23% 22% 71% 73%;
+  background: var(--white2);
 }
 
 .base-face .shadow1 {
