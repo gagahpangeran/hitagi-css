@@ -24,11 +24,133 @@
   --grey: #bab7d4;
 }
 
+html {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-items: start;
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+  width: 100vw;
+}
+
+@media screen and (min-width: 1610px) and (min-height: 910px) {
+  body {
+    justify-items: center;
+  }
+
+  p {
+    display: none;
+  }
+}
+
+.source-code {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 73px;
+  height: 55px;
+  background: var(--violet);
+  z-index: 999;
+  display: block;
+  opacity: 0.5;
+  transition: 0.1s opacity ease-in-out;
+  text-decoration: none;
+}
+
+.source-code span {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .source-code {
+    position: relative;
+    background: none;
+    display: inline;
+    width: 100vw;
+    height: auto;
+    color: var(--purple);
+    opacity: 1;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .source-code div {
+    display: none;
+  }
+
+  .source-code span {
+    display: inline;
+    font-weight: bold;
+  }
+}
+
+.source-code:hover {
+  opacity: 1;
+}
+
+.source-code div {
+  position: absolute;
+}
+
+.source-code .sc1 {
+  top: 12px;
+  left: 15px;
+  height: 15px;
+  width: 7px;
+  background: var(--purple);
+  transform: skewX(-35deg);
+}
+
+.source-code .sc2 {
+  top: 27px;
+  left: 15px;
+  height: 15px;
+  width: 7px;
+  background: var(--purple);
+  transform: skewX(35deg);
+}
+
+.source-code .sc3 {
+  top: 8px;
+  left: 33px;
+  height: 38px;
+  width: 6px;
+  background: var(--purple);
+  transform: skewX(-15deg);
+}
+
+.source-code .sc4 {
+  top: 12px;
+  left: 51px;
+  height: 15px;
+  width: 7px;
+  background: var(--purple);
+  transform: skewX(35deg);
+}
+
+.source-code .sc5 {
+  top: 27px;
+  left: 51px;
+  height: 15px;
+  width: 7px;
+  background: var(--purple);
+  transform: skewX(-35deg);
+}
+
 .container {
   width: 1600px;
   height: 900px;
   border: 5px solid #000;
-  margin: 20px auto;
   position: relative;
   background: #cacaca;
 }
