@@ -18,7 +18,11 @@ Everyone who wants to contribute are welcome. You can refactor the code, make th
 
 _Somebody please fix the mouth, It's very ugly now, hehe._
 
-## Supporting Tools
+## Useful Links & Supporting Tools
 
 - [Photopea](https://www.photopea.com/)
 - [Fancy Border Radius](https://9elements.github.io/fancy-border-radius/full-control.html)
+- <https://dev.to/alvaromontoro/drawing-homer-simpson-using-circles-in-css-4gc1>
+- <https://github.com/alvaromontoro/CSS-Simpsons>
+- <https://pattle.github.io/simpsons-in-css>
+- <https://github.com/pattle/simpsons-in-css>
