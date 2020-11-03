@@ -6,6 +6,14 @@ I draw (or trace) anime girl using HTML and CSS only.
 
 [hitagi.gpr.wtf](https://hitagi.gpr.wtf)
 
+## Video
+
+Short documentation process when I made this project.
+
+[![Thumbnail](thumb.png)](https://www.youtube.com/watch?v=xSy_8MtmhPA)
+
+[Alternate video with bakemonogatari soundtrack.](https://drive.google.com/file/d/1pWBHvHG3ba5GsdHoUfMLhwjoqMWhfVGT/view?usp=sharing)
+
 ## Original Image
 
 ![Hitagi](hitagi.png)
