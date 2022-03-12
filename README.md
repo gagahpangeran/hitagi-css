@@ -4,7 +4,7 @@ I draw (or trace) anime girl using HTML and CSS only.
 
 ## Live Website
 
-[hitagi.gpr.wtf](https://hitagi.gpr.wtf)
+https://hitagi.gagahpangeran.com
 
 ## Video
 
